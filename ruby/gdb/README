@@ -1,0 +1,8 @@
+GDB ruby stuff:
+
+move gdbinit in ~/.gdbinit
+move ruby in ~/gdb/ruby
+
+once in a gbd session, invoke session-ruby
+
+voila, you can now eval "caller" and stuff, realtime on a ruby process
