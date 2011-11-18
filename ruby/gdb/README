@@ -1,8 +1,8 @@
-GDB ruby stuff:
+Debugging a ruby process using GDB and this module:
 
 move gdbinit in ~/.gdbinit
 move ruby in ~/gdb/ruby
 
-once in a gbd session, invoke session-ruby
+once lined to the process in a gbd session, invoke session-ruby
 
 voila, you can now eval "caller" and stuff, realtime on a ruby process
